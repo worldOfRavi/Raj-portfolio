@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+font-family: "Inter", sans-serif;
+}
+
+.hover-bg-gradient {
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s;
+  }
+  
+  .hover-bg-gradient::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #f483c3, #64748b, #8b5cf6);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .hover-bg-gradient:hover::before {
+    opacity: 1;
+  }
+  
+  .hover-bg-gradient:hover {
+    color: #fff;
+  }
+  
