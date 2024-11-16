@@ -22,13 +22,13 @@ export const EXPERIENCES = [
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
-  // {
-  //   year: "2021 - 2022",
-  //   role: "Full Stack Developer",
-  //   company: "Facebook",
-  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  // },
+  {
+    year: "Dec 2018 - Mar 2019",
+    role: "Intern in Python and Machine Learning",
+    company: "Karunadu Technology Pvt. Ltd",
+    description: `Implemented creative ideas with club members and conducted interactive sessions. Actively participated in activities such as cleaning up public spaces, organizing events, assisting in community centers, etc. Worked for vulnerable people, for instance, the elderly, children, homeless individuals, and people with disabilities.`,
+    technologies: ["Python", "Django", "HTML", "CSS"],
+  },
   // {
   //   year: "2020 - 2021",
   //   role: "Software Engineer",
@@ -61,7 +61,7 @@ export const PROJECTS = [
     technologies: ["React","MongoDB","Express","NodeJs","Tailwind CSS","Socket.IO"],
   },
   {
-    title: "Blogging Platform",
+    title: "Music Player",
     image: project4,
     description:
       "TunePlay is a simple, intuitive music player app for browsing, playing, and organizing your favorite songs. Enjoy seamless playback and high-quality audio, all in one place.",
