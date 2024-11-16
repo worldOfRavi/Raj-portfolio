@@ -1,6 +1,6 @@
 import React from 'react';
 import { HERO_CONTENT } from '../constants';
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/raj.jpeg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -15,7 +15,7 @@ const container = (delay) => ({
 const Hero = () => {
   return (
     <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap  p-10">
         <div className="w-full mb-8 lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <motion.h1
@@ -62,6 +62,7 @@ const Hero = () => {
             initial = {{x:100, opacity:0}}
             animate={{x:0,opacity:1}}
             transition={{duration:0.5, delay:1.3}}
+            className='rounded-md w-[400px] mt-10'
              src={profilePic} alt="Raj" />
           </div>
         </div>
