@@ -2,8 +2,10 @@ import React from "react";
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
 import { Tooltip, Button } from "@material-tailwind/react";
+import { useMailContext } from "../store/mailContext";
 
 const Contact = () => {
+  const {setClicked} = useMailContext();
   return (
     <div className="border-b border-neutral-900 pb-20">
       <motion.h1
@@ -33,7 +35,7 @@ const Contact = () => {
         </motion.p>
         <Tooltip content="Click to send mail" placement="top" className="text-purple-500">
         <a href="#" className="border-b">
-          {CONTACT.email}
+          <button onClick={()=>setClicked(true)}>{CONTACT.email}</button>
         </a>
         </Tooltip>
       </div>

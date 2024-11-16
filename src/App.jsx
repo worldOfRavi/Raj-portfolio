@@ -1,3 +1,4 @@
+// import dotenv from 'dotenv';
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -6,7 +7,11 @@ import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import SendMail from "./components/SendMail";
+import { useMailContext } from "./store/mailContext";
 const App = () => {
+  // dotenv.config();
+  const {clicked} = useMailContext();
   return (
     <div
       className=" overflow-x-hidden text-neutral-300 antialiased
@@ -23,6 +28,20 @@ const App = () => {
         <Experience />
         <Projects />
         <Contact />
+        {/* <select>
+          <selectTrigger>
+            <selectValue placeholder = "Select a services" />
+          </selectTrigger>
+          <selectContent>
+          <selectGroup>
+            <selectLabel>Select a service</selectLabel>
+            <selectItem value = "est">Web Development</selectItem>
+            <selectItem value="est">UI/UX Design</selectItem>
+            </selectGroup>
+          </selectContent>
+        </select> */}
+        {clicked && <SendMail />}
+        
       </div>
     </div>
   );

@@ -48,7 +48,7 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
             className="download">
-              <a href="/CV/RejendraResume.pdf" download className='border border-gray-500
+              <a href="RajendraResume.pdf" download className='border border-gray-500
               rounded py-2 px-4 bg-gradient-to-r from-pink-300 via-slate-500 
             to-purple-500 bg-clip-text text-transparent
              hover-bg-gradient

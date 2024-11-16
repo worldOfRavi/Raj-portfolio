@@ -7,6 +7,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { Tooltip, Button } from "@material-tailwind/react";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -57,6 +58,19 @@ const Technologies = () => {
           >
             <button>
               <TbBrandNextjs className="text-7xl cursor-pointer" />
+            </button>
+          </motion.div>
+        </Tooltip>
+
+        <Tooltip content="TailWind CSS" placement="top" className="text-gray-200">
+          <motion.div
+            variants={iconVariants(2)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4"
+          >
+            <button>
+              <RiTailwindCssFill className="text-7xl cursor-pointer text-blue-400" />
             </button>
           </motion.div>
         </Tooltip>
