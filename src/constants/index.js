@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/rajEcommerce.png";
 import project2 from "../assets/projects/rajRealState.png";
 import project3 from "../assets/projects/rajChatApp.png";
 import project4 from "../assets/projects/musicPlayer.png";
@@ -9,14 +9,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Nov 2020 -Sep 2022",
-    role: "Frontend Developer",
+    year: "July 2022 - March 2024",
+    role: "Full Stack Software Developer",
     company: "SoftTech Park.",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "Jun 2020 - Nov 2020",
+    year: "June 2021 - March 2022",
     role: "Frontend Developer Intern",
     company: "SoftTech Park",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
