@@ -33,7 +33,7 @@ const SendMail = () => {
   
 
   return (
-    <div className="w-2/4 fixed top-1/4 left-1/4  border-2 border-purple-700 opacity-1 bg-neutral-800 rounded ">
+    <div className="xs:w-[100%] md:w-2/4 fixed xs:left-0 top-1/4  md:left-1/4  border-2 border-purple-700 opacity-1 bg-neutral-800 rounded ">
       <div className="p-8 mb-3">
         <div className="w-full flex justify-end">
           <IoCloseCircleOutline
