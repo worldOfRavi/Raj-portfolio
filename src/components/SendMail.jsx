@@ -48,7 +48,7 @@ const SendMail = () => {
           <form ref={form} onSubmit={sendEmail}>
           <label className="input input-bordered flex items-center gap-2 my-3">
               <FaUser />
-              <input type="text" className="grow text-gray-800" placeholder="Name" name="user_name" />
+              <input type="text" className="grow text-gray-200" placeholder="Name" name="user_name" />
             </label>
             <label className="input input-bordered flex items-center gap-2 my-3">
               <svg
@@ -60,12 +60,12 @@ const SendMail = () => {
                 <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
                 <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
               </svg>
-              <input type="text" className="grow text-gray-800" placeholder="Email" name="user_email" />
+              <input type="text" className="grow text-gray-200" placeholder="Email" name="user_email" />
             </label>
             <textarea
               placeholder="Message"
               name="message"
-              className="textarea textarea-bordered textarea-md w-full text-gray-900 mt-3"
+              className="textarea textarea-bordered textarea-md w-full text-gray-200 mt-3"
             ></textarea>
             <button
               type="submit"
