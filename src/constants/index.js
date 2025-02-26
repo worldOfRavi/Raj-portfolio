@@ -9,14 +9,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "July 2022 - March 2024",
+    year: "May 2022 - Oct 2022",
     role: "Full Stack Software Developer",
     company: "SoftTech Park.",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "June 2021 - March 2022",
+    year: "Nov 2020 - Mar 2021",
     role: "Frontend Developer Intern",
     company: "SoftTech Park",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
@@ -60,13 +60,13 @@ export const PROJECTS = [
       "Chat Connect is a simple and secure messaging app designed for real-time text communication. Users can register, log in, and instantly connect with friends or groups through text messages. The app ensures an engaging experience with features like media sharing and keeps conversations safe with end-to-end encryption.",
     technologies: ["React","MongoDB","Express","NodeJs","Tailwind CSS","Socket.IO"],
   },
-  {
-    title: "Music Player",
-    image: project4,
-    description:
-      "TunePlay is a simple, intuitive music player app for browsing, playing, and organizing your favorite songs. Enjoy seamless playback and high-quality audio, all in one place.",
-    technologies: ["React","CSS","MongoDB","Node","Express"],
-  },
+  // {
+  //   title: "Music Player",
+  //   image: project4,
+  //   description:
+  //     "TunePlay is a simple, intuitive music player app for browsing, playing, and organizing your favorite songs. Enjoy seamless playback and high-quality audio, all in one place.",
+  //   technologies: ["React","CSS","MongoDB","Node","Express"],
+  // },
 ];
 
 export const CONTACT = {
