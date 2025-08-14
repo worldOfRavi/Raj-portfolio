@@ -9,11 +9,18 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "May 2022 - Oct 2022",
+    year: "June 2024 - March 2025",
+    role: "Front End Developer",
+    company: "UntoldCine, Toronto, On, Canada",
+    description: `Developed and optimized a movie streaming platform with responsive, user-friendly interfaces using React.js. Implemented dynamic content rendering, search, and filtering features, ensuring seamless video playback and enhanced user experience.`,
+    technologies: ["Javascript", "React.js", "Next.js", "Express","MongoDB"],
+  },
+  {
+    year: "July 2020 - Nov 2022",
     role: "Full Stack Software Developer",
     company: "SoftTech Park.",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB", "Express"],
   },
   {
     year: "Nov 2020 - Mar 2021",
@@ -70,7 +77,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "16 Madrid St. M1P 4L8, Scarborough, ON. Canada ",
+  address: "7 Peking Rd. M1J 2X2, Scarborough, ON. Canada ",
   phoneNo: "+1 6473250215",
   email: "rajendra20023@.com",
 };
