@@ -9,7 +9,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Sep 2024 - Aug 2026",
+    year: "Sept 2024 - Aug 2026",
     role: "Front End Developer",
     company: "UntoldCine, Toronto, On, Canada",
     description: `Developed and optimized a movie streaming platform with responsive, user-friendly interfaces using React.js. Implemented dynamic content rendering, search, and filtering features, ensuring seamless video playback and enhanced user experience.`,
